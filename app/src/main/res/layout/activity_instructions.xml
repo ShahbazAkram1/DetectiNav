@@ -1,0 +1,48 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+tools:context=".InstructionsActivity"
+android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="359dp"
+        android:layout_height="117dp"
+        android:fontFamily="sans-serif-black"
+        android:text="1) Click Start Detectinav to activate real time object detection."
+        android:textSize="10pt"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <TextView
+        android:id="@+id/instructions2"
+        android:layout_width="359dp"
+        android:layout_height="117dp"
+        android:fontFamily="sans-serif-black"
+        android:text="2) Once started, your camera will be utilised to detect objects within camera range."
+        android:textSize="10pt"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <TextView
+        android:id="@+id/instructions3"
+        android:layout_width="359dp"
+        android:layout_height="117dp"
+        android:text="3) There will be an audio warning if any objects are too close."
+        android:textSize="10pt"
+        android:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <Button
+        android:id="@+id/return_button"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:text="Return to start page"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-400dp" />
+
+</LinearLayout>
